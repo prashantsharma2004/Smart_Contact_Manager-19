@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+      th:replace="base :: layout(~{::section})">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Smart Contact Manager</title>
+</head>
+
+<body>
+    <section>
+        <div class="container my-5">
+
+            <!-- Heading -->
+            <div class="text-center mb-4">
+                <h1 class="fw-bold text-primary">About Smart Contact Manager</h1>
+                <p class="text-muted">Your personal assistant to manage contacts securely & efficiently</p>
+            </div>
+
+            <!-- Main Card -->
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="row g-0">
+                    <!-- Left Side Image -->
+                    <div class="col-md-5">
+                        <img src="https://img.freepik.com/free-vector/flat-illustration-customer-support_23-2148892786.jpg"
+                             class="img-fluid h-100 rounded-start" alt="About Image">
+                    </div>
+
+                    <!-- Right Side Content -->
+                    <div class="col-md-7">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-success">Why Choose Us?</h3>
+                            <p class="card-text text-muted">
+                                Smart Contact Manager is a secure and user-friendly platform designed to keep all your contacts
+                                in one place. It helps you organize, search, and manage your contacts with ease. 
+                                Built with <strong>Spring Boot & Thymeleaf</strong>, it ensures smooth performance, reliability, 
+                                and data security.
+                            </p>
+
+                            <!-- Features -->
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="bi bi-check-circle-fill text-primary"></i> Easy to add & manage contacts</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle-fill text-primary"></i> Instant search with live results</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle-fill text-primary"></i> Secure login & data protection</li>
+                                <li class="list-group-item"><i class="bi bi-check-circle-fill text-primary"></i> Responsive and modern design</li>
+                            </ul>
+
+                            <!-- Call to Action -->
+                            <div class="mt-4">
+                                <a href="/user/index" class="btn btn-primary px-4 me-2">Get Started</a>
+                                <a href="#" class="btn btn-outline-success px-4">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team / Footer Info -->
+            <div class="text-center mt-5">
+                <h4 class="fw-bold">Made ❤️ by Prashant Sharma</h4>
+                <p class="text-muted">A Major Project for managing contacts in a smarter way</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Bootstrap Icons CDN (for check icons) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</body>
+</html>

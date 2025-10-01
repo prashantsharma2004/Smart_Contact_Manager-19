@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+      th:replace="base :: layout(~{::section})">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Contact Manager</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid p-0">
+
+            <!-- Hero Section -->
+            <!-- Hero Section -->
+<div class="hero-section text-center text-white position-relative" 
+     style="height: 80vh; display: flex; align-items: center; justify-content: center;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url('https://images.unsplash.com/photo-1581091870625-2f0b779d0f83?auto=format&fit=crop&w=1470&q=80') 
+                        center/cover no-repeat;
+            background-attachment: fixed;">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-3 animate__animated animate__fadeInDown">Manage Your Contacts Smartly</h1>
+        <p class="lead mb-4 animate__animated animate__fadeInUp">Easily add, organize, search and secure all your contacts in one place</p>
+        <a href="/user/index" class="btn btn-primary btn-lg me-2 animate__animated animate__zoomIn">Get Started</a>
+        <a href="/about" class="btn btn-outline-light btn-lg animate__animated animate__zoomIn">Learn More</a>
+    </div>
+</div>
+
+            <!-- Features Section -->
+            <div class="container my-5">
+                <h2 class="text-center fw-bold mb-4">Why Smart Contact Manager?</h2>
+                <div class="row text-center g-4">
+                    <div class="col-md-3">
+                        <div class="card shadow-sm p-3 rounded-4 h-100">
+                            <i class="bi bi-person-plus-fill display-4 text-primary mb-3"></i>
+                            <h5 class="fw-bold">Add Contacts</h5>
+                            <p class="text-muted">Quickly add new contacts with all essential details.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm p-3 rounded-4 h-100">
+                            <i class="bi bi-search display-4 text-success mb-3"></i>
+                            <h5 class="fw-bold">Search Instantly</h5>
+                            <p class="text-muted">Find any contact instantly with our live search feature.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm p-3 rounded-4 h-100">
+                            <i class="bi bi-shield-lock-fill display-4 text-danger mb-3"></i>
+                            <h5 class="fw-bold">Secure Data</h5>
+                            <p class="text-muted">All your contact data is secured and private.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm p-3 rounded-4 h-100">
+                            <i class="bi bi-phone-fill display-4 text-warning mb-3"></i>
+                            <h5 class="fw-bold">Responsive Design</h5>
+                            <p class="text-muted">Works perfectly on desktop, tablet, and mobile devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action Section -->
+            <div class="bg-primary text-white py-5 text-center">
+                <h2 class="fw-bold mb-3">Ready to Manage Your Contacts?</h2>
+                <a href="/user/index" class="btn btn-light btn-lg">Get Started Now</a>
+            </div>
+
+            <!-- Footer -->
+            <div class="text-center py-4 text-muted">
+                <p>© 2025 Smart Contact Manager | Made ❤️ by Prashant Sharma</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</body>
+</html>

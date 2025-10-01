@@ -1,0 +1,129 @@
+body{
+    background: #e2e2e2!important;
+   
+}
+.bg-priamry{
+        background: #9d2681 !important;
+    }
+
+    .banner{
+        width: 100%;
+        height:93vh;
+        background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../img/banner.jpg);
+        background-size:cover;
+        color:white;
+
+    }
+    
+.my-card{
+    padding:20px;
+    background:#FFFFFF;
+}    
+    
+.form-group {
+  display: flex;
+  justify-content: center; /* Centers children horizontally */
+  align-items: center; /* Centers children vertically if needed */
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color:whitesmoke;
+}
+ 
+/* side bar style*/
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #fff;
+  height: calc(100vh-56px);
+  position: fixed;
+  left: 0;
+  top: 56px;
+  border-right: 1px solid #eee;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", sans-serif;
+  overflow-y: auto;
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px 20px;
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar a:hover {
+  background: #f1f1f1;
+  color: #000;
+  border-left: 4px solid #0d6efd;
+  padding-left: 16px;
+}
+
+.sidebar .divider {
+  height: 1px;
+  background: #e0e0e0;
+  margin: 10px 20px;
+}
+
+.sidebar .crossBtn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  color: #888;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  margin-left: 220px;
+  margin-top: 56px;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+    width: 75% !important;
+    z-index: 1000;
+  }
+  .content {
+    margin-left: 0;
+  }
+}
+/* Profile picture style */
+.my_profile_picture{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-right:10px;
+    
+}
+
+/* search bar style */
+.search-container {
+  position: relative;
+  
+}
+.search-result {
+  position: absolute;
+  background: white;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+  display: none; /* Hidden by default */
+}
